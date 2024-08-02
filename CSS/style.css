@@ -1,0 +1,1680 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #333;
+	overflow-x: hidden;
+	min-width: 320px;
+}
+input,textarea,select{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+	color: #333;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: Arial;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+body{
+
+ @font-face {
+  font-family: 'poppinsbold';
+  src: url('../fonts/css/poppins-bold-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinsextrabold';
+  src: url('../fonts/css/poppins-extrabold-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinsextralight';
+  src: url('../fonts/css/poppins-extralight-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinslight';
+  src: url('../fonts/css/poppins-light-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('../fonts/css/poppins-regular-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url('../fonts/css/poppins-semibold-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+}
+
+
+header .container { 
+  display: flex;
+  
+  
+  padding-top:10px;
+  padding-bottom: 20px;
+  
+
+}
+
+
+header .container .left h1 { 
+  display: flex;
+  
+  
+  font-family:'poppinsregular';
+
+}
+header .container .left h1:hover{
+  transform: scale(1.5);
+  
+}
+
+header .container .left h1 a {  
+  font-family: 'poppinsregular';
+
+}
+
+header .container .left h1 a img { 
+  
+  margin-left: 100%;
+  
+  
+  
+
+}
+
+header .container .middle { 
+padding-top: 10px;
+margin-right: 0;
+margin-left: 10%;
+}
+
+header .container .middle ul { 
+  display: flex;
+  list-style: none;
+}
+
+header .container .middle ul li.menu{
+  display: none;
+}
+header .container .middle ul li { 
+  font-family: 'poppinsregular';
+ margin-left:10%;
+ margin-right:10%;
+ 
+font-size: 25px;
+ color: rgb(154, 161, 168);
+}
+header .container .middle ul li:hover {
+  color: rgb(20, 20, 20);
+  cursor: pointer;
+  
+}
+
+header .container .right { 
+  height:70px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 10%;
+}
+
+header .container .right ul { 
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 10px;
+  margin-right:100px;
+  
+
+  
+
+}
+header .container .right ul li{
+  padding: 2.5px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(230, 227, 227); 
+
+
+  
+}
+header .container .right ul li.one{
+  margin-left:70%; 
+  
+}
+header .container .right ul li img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+header .container .right ul li input{
+  border: none;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  font-family:'poppinsregular';
+  
+
+  background-color: rgb(230, 227, 227); 
+  
+
+}
+
+
+
+
+header .container .right ul li  span{
+  display: flex;
+  justify-content: space-between;
+  
+}
+header .container .right ul li.two{
+  margin-left: 50px;
+}
+header .container .right  span img{
+  background-color: rgb(230, 227, 227);
+  padding: 8px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+#spotlight { 
+background-image: url(../IMAGES/bg-1.jpg);
+background-repeat: no-repeat;
+height: 150vh;
+}
+
+
+
+#spotlight .wrapper .container { 
+ display: flex;
+ justify-content: space-between;
+}
+
+#spotlight .wrapper .container .left { 
+  margin-top: 500px;
+ 
+
+}
+#spotlight .wrapper .container .middle { 
+ 
+ margin-top:300px;
+ 
+ 
+ 
+}
+
+#spotlight .wrapper .container .middle h6 { 
+ font-size: 30px;
+ color: white;
+ font-family:'poppinssemibold';
+ margin-right:500px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+ }
+
+#spotlight .wrapper .container .middle h2 { 
+
+font-size:90px;
+color: white;
+line-height: 7rem;
+width: 70%; 
+font-family:'poppinsbold';
+}
+
+#spotlight .wrapper .container .middle .button { 
+  background-color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  padding:15px 60px;
+  font-family:'poppinsregular';
+}
+
+#spotlight .wrapper .container .right { 
+  margin-top:500px;
+  margin-left: 200px;
+  margin-right: -50px;
+}
+
+
+#main  { 
+  display: flex;
+  justify-content: space-between;
+}
+#main .wrapper .container { 
+  display: flex;
+  justify-content: space-around;
+}
+
+#main .wrapper .container .left { 
+
+  margin-top:100px;
+  background-image: url(../IMAGES/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size:160%;
+  width:900px ;
+  height: 500px;
+  margin-right:3%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(41, 40, 40);
+  
+
+}
+
+#main .wrapper .container .left h6 { 
+  color: white;
+  
+  font-size: 22px;
+  margin-left:50px;
+  
+  margin-top: 70px;
+  
+  font-family:'poppinsregular' ;
+  
+  
+}
+
+#main .wrapper .container .left h4 { 
+  color: white;
+  
+  
+  font-size: 40px;
+  margin-left: 50px;
+  font-weight: 600;
+  margin-top: 30px;
+  font-family: 'poppinssemibold';
+  
+  
+
+}
+
+#main .wrapper .container .left p { 
+  color: white;
+  text-align: left;
+  font-size: 22px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family:'poppinsregular';
+}
+#main .wrapper .container .left h6 a{
+  color: white;
+}
+
+#main .wrapper .container .right { 
+
+margin-top: 100px;
+background-image: url(../IMAGES/bg-3.jpg);
+background-repeat: no-repeat;
+background-size:145%;
+width: 900px;
+height: 500px;
+border-radius: 20px;
+box-shadow:2px 2px 2px 2px rgb(41, 40, 40);
+
+
+}
+
+#main .wrapper .container .right h6 { 
+  color: white;
+  
+  text-align: left;
+  font-size:22px;
+  margin-left: 50px;
+  margin-top: 70px;
+  margin-bottom: 5%;
+  font-family:'poppinsregular' ;
+
+}
+
+#main .wrapper .container .right h4 { 
+color: white;
+text-align: left;
+font-size: 40px;
+font-weight: 600;
+margin-left: 50px;
+margin-top: 5px;
+font-family: 'poppinssemibold';
+margin-top: 20px;
+}
+
+#main .wrapper .container .right p { 
+  color: white;
+
+  text-align: left;
+  margin-left: 50px;
+  font-size: 22px;
+  margin-top: 5%;
+  font-family:'poppinsregular';
+  
+
+}
+#main .wrapper .container .right h6 a{
+  color: white;
+  font-family: 'poppinssemibold';
+
+  
+}
+
+#middle .wrapper .container h4 { 
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: 'poppinssemibold';
+  margin-left: 4%
+
+}
+#middle .wrapper .container h4 span{
+  font-size: 30px;
+  margin-right: 30px;
+  color: purple;
+}
+
+#middle .wrapper .gallery{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#middle .wrapper .gallery ul { 
+  display: flex;
+  justify-content:space-between ;
+  
+}
+
+#middle .wrapper .gallery ul li { 
+  margin-top: 10px;
+  margin-left:-20px;
+  margin-right: 10px;
+  list-style: none;
+  text-align: center;
+  font-family: 'poppinslight';
+}
+
+
+#middle .wrapper .gallery ul li a  img{
+width: 330px;
+}
+#middle .wrapper .gallery ul li a{
+text-decoration: none;
+color: #000;
+margin-top:20px;
+margin-left: 20%;
+
+}
+
+      
+      
+
+
+#brand { 
+  width: 100%;
+  display: flex;
+  height: 800px;
+}
+
+#brand .wrapper .container { 
+  
+  display: flex;
+
+  
+
+}
+#brand .wrapper .container div.left{
+  background-image: url(../IMAGES/bg-4.jpg);
+  background-size:cover;
+  height:600px;
+  width: 850px;
+  margin-top:100px;
+  margin-left: 20px;
+  
+
+  
+}
+  
+
+#brand .wrapper .container  div.right{
+  background-image:url(../IMAGES/bg-5.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 850px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  
+  
+
+}
+
+
+#brand .wrapper .container h4 { 
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  margin-top:200px;
+  margin-bottom:20px;
+  margin-left: 50px;
+  line-height: 2rem;
+  font-family: 'poppinsbold';
+
+}
+#brand .wrapper .container h4 span{
+  font-size: 30px;
+  margin-right: 30px;
+  color: purple;
+}
+
+
+#brand .wrapper .container p { 
+color: rgb(226, 225, 225);
+text-align: left;
+margin-left: 50px;
+line-height: 1.5rem;
+font-size: 18px;
+font-family:'poppinslight';
+
+}
+
+#brand .wrapper .container .button { 
+background-color:white;
+color: #000;
+text-decoration: none;
+padding: 6px 40px;
+line-height: 8rem;
+margin-left: 50px;
+font-family: 'poppinsregular';
+}
+
+
+
+
+#category_for_men .container h4 { 
+  font-size: 30px;
+  margin-bottom:50px;
+  font-family: 'poppinssemibold';
+}
+#category_for_men .container h4 span{
+  font-size: 30px;
+  margin-right: 30px;
+  color: purple;
+}
+
+#category_for_men .container ul { 
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom:20px;
+  list-style: none;
+  flex-direction: row;
+
+
+}
+
+#category_for_men .container ul li { 
+  width: 400px;
+  margin-bottom: 5%;
+
+}
+
+#category_for_men .container ul li:nth-child(7n) img.image{
+  width:365px;
+  height: 540px;
+}
+#category_for_men .container ul li a {
+  color: gray;
+  font-size: 12px;
+  margin-right:10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: 'poppinslight';
+ 
+  
+}
+#category_for_men .container ul li img.image_one{
+  width: 370px;
+}
+
+#category_for_men .container ul li a img.right{ 
+  margin-left: 250px;
+}
+
+#category_for_men .container ul li a span { 
+  font-size: 18px;
+  color: black;
+  width: 100%;
+  text-decoration:none;
+  margin-top: 20px;
+}
+ 
+  #Categories_for_women .container h4 { 
+    font-size: 30px;
+    margin-bottom:50px;
+    margin-left: 10px;
+    font-family: 'poppinssemibold';
+  }
+  #Categories_for_women .container h4 span{
+    font-size: 30px;
+    margin-right: 30px;
+    color: purple;
+  }
+  
+  #Categories_for_women .container ul { 
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:20px;
+    list-style: none;
+    flex-direction: row;
+  }
+  
+  #Categories_for_women .container ul li { 
+    width: 390px;
+    
+  }
+ 
+  #Categories_for_women .container ul li a { 
+    color: gray;
+    font-size: 12px;
+    margin-right:10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    
+  }
+  #Categories_for_women .container ul li a img.image_two{
+    width: 370px;
+  }
+  
+
+  
+    
+  #Categories_for_women .container ul li a span { 
+    font-size: 18px;
+    color: black;
+    width: 100%;
+    text-decoration:none;
+    margin-right:10px;
+    font-family: 'poppinslight';
+    margin-top: 20px;
+  }
+  
+  
+  #Categories_for_women .container ul li a .arrow-right { 
+   margin-left: 250px;
+  }
+  #top_brands{
+    margin-top: 100px;
+  }
+ 
+  #top_brands .wrapper .container { 
+  background-color: #2d2d2d;
+  height: 350px;
+  width: 100%;
+  padding:5px;
+  border-radius: 8px;
+  }
+  
+  #top_brands .wrapper .container h2 { 
+  text-align: center;
+   font-size: 50px;
+   color: white;
+   margin-top: 40px;
+   font-family: 'poppinsbold';
+  
+  }
+  
+  #top_brands .wrapper .container p { 
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: 'poppinsregular';
+
+  
+  }
+  #top_brands .wrapper .container .logo{
+    padding: 0% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  } 
+  #top_brands .wrapper .container .logo span { 
+    margin-left:30px;
+    
+}
+  #top_brands .wrapper .container .logo span img{
+    background-color: white;
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top:60px;
+  }
+  #top_brands .wrapper .container  a{
+    color:yellow;
+    text-decoration: none;
+    
+  }
+  #limelight{
+    margin-top: 50px;
+  
+  }
+ 
+  #limelight .wrapper .container { 
+  display:flex;
+  
+
+  
+  }
+ 
+  
+  #limelight .wrapper  h4 { 
+     font-size: 30px;
+     margin-top: 100px;
+     margin-left: 20px;
+     font-family: 'poppinssemibold';
+  }
+  #limelight .wrapper h4 span{
+    font-size: 30px;
+    margin-right: 30px;
+    color: purple;
+  }
+  #limelight .wrapper .container .box{
+    width: 700px;
+  }
+  
+  
+  
+  #limelight .wrapper .container .box span img { 
+   margin-top: 30px;
+   margin-right: 40px;
+   
+  
+  }
+  #limelight .wrapper .container .box span img.image_three{
+    width: 380px;
+  }
+  #limelight .wrapper .container .box span img.one{
+    position: absolute;
+    margin-left: 300px;
+    padding-top: 100px;
+    margin-top: 50px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50%;
+     
+  }
+  #limelight .wrapper .container .box span img.one:hover{
+    transform: scale(.5);
+    background: red;
+  }
+  
+  #limelight .wrapper .container .box p { 
+  
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'poppinsregular';
+  }
+  
+  #limelight .wrapper .container .box .button { 
+      margin-left:90px;
+      background-color: #6f6f66;
+      border-radius: 4px;
+      padding:  6px;
+      margin-top: 20px;
+      color: white;
+  }
+
+  #limelight .wrapper .container .box:nth-child(3n) .button{
+    margin-left: 180px;
+  }
+
+  #limelight .wrapper .container .box small a{
+    margin-left:20px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: #6f6f66;
+    
+
+  }
+  #feed_back {
+    width: 100%;
+  }
+ 
+  
+  #feed_back .wrapper h2 { 
+   
+  margin-top: 100px;
+  margin-bottom: 50px;
+   font-size: 30px;
+   font-family: 'poppinssemibold';
+  }
+  
+  #feed_back .wrapper .container { 
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  #feed_back .wrapper .container .box { 
+   width: 500px;
+   height: 350px;
+   border: 2px solid #ddddd6;
+   border-radius: 8px;
+  }
+  
+  #feed_back .wrapper .container .box span { 
+  
+  margin-top: 20px;
+  }
+  
+  
+  
+  #feed_back .wrapper .container .box span img { 
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 100px;
+  
+  }
+  
+  
+  #feed_back .wrapper .container .box a{
+    margin-left: 200px;
+    margin-bottom: 250px;
+  }
+  #feed_back .wrapper .container .box a img{
+       margin-bottom: 100px;
+
+  
+  }
+  
+  #feed_back .wrapper .container .box h4 { 
+  margin-left: 20px;
+  font-size: 22px;
+
+  margin-top: -2%;
+  font-family: 'poppinssemibold';
+  }
+  
+  #feed_back .wrapper .container .box p { 
+   margin-left: 20px;
+   line-height: 1.5rem;
+   margin-bottom: -20%;
+  }
+  #footer { 
+    background-color: #2d2d2d;
+  }
+  
+ 
+  
+  #footer .wrapper .container { 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #6f6f66;
+    margin-top: 100px;
+  }
+  
+  #footer .wrapper .container .left { 
+     margin-left: 50px;
+     
+  }
+  
+  #footer .wrapper .container .left h2 { 
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family: 'poppinssemibold';
+  }
+  
+  #footer .wrapper .container .left a { 
+    display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 30px;
+        font-size: 20px;
+        font-family: 'poppinslight';
+        
+  }
+  #footer .wrapper .container .left ul{
+    display: flex;
+    justify-content: space-between;
+     list-style: none;
+     margin-top: 50px;
+     
+  }
+  #footer .wrapper .container .left ul li{
+  
+     margin-right: 2px;
+  }
+  
+  #footer .wrapper .container .left ul li a img{
+     background-color: white;
+     padding: 12px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+  }
+  #footer .wrapper .container .left ul li a img.one{
+    height: 15px;
+    width: 15px;
+  }
+  #footer .wrapper .container .left ul li a img.four{
+    height:16px;
+  }
+  #footer .wrapper .container .left ul li a img.one:hover{
+    background-color:#4267B2;
+  }
+  #footer .wrapper .container .left ul li a img.two:hover{
+     background-color:purple;
+  
+  }
+  #footer .wrapper .container .left ul li a img.three:hover{
+  background-color: #1DA1F2;
+  }
+  #footer .wrapper .container .left ul li a img.four:hover{
+    background-color: #0077B5;
+  }
+  #footer .wrapper .container .left_one h2 { 
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family: 'poppinssemibold';
+        
+  }
+  
+  #footer .wrapper .container .left_one a { 
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family:'poppinslight';
+        
+  }
+  #footer.wrapper.container span.left ul{
+    display: flex;
+  list-style: none;
+  margin-bottom: 100px;
+  }
+  
+  #footer .wrapper .container .middle { 
+    margin-left: 20px;
+  }
+  
+  #footer .wrapper .container .middle h2 { 
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family:'poppinssemibold';
+        
+  }
+  
+  #footer .wrapper .container .middle a { 
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family:'poppinslight';
+  }
+  
+  #footer .wrapper .container .right { 
+    margin-bottom: 30px;
+  }
+  
+  #footer .wrapper .container .right h2 { 
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family: 'poppinslight';
+  }
+  
+  #footer .wrapper .container .right a.link{ 
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size:18px ;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: 'poppinslight';
+  }
+    #footer .wrapper .container  div.right span.right{
+     align-items: center;
+  }
+  #footer .wrapper .container div.right span.right ul{
+    display: flex;
+  }
+   #footer .wrapper .container div.right span.right ul li{ 
+    display: flex;
+    margin-right: 10px;
+    background-color:#3b3939;
+    border-radius: 8px;
+    margin-bottom: 20%;
+    
+    width:100%;
+  
+  }
+  #footer .wrapper .container div.right span.right ul .one a{
+    text-decoration: none;
+  }
+  #footer .wrapper .container div.right span.right ul .one a h4 { 
+    
+    font-size:18px;
+  }
+  
+  #footer .wrapper .container div.right span.right ul .one a img{
+      margin-left: 20%;
+  }
+
+  
+  #footer .wrapper .container div.right span.right ul li .two { 
+  background-color: #49717e;
+  display: flex;
+  
+  }
+   
+  #footer .wrapper .container div.right span.right ul li .two small{
+    margin-left: 10px;
+    margin-top: 20px;
+    
+  }
+  
+  
+  #footer .wrapper .container div.right span.right ul li.two img { 
+          
+          margin-left: 10px;
+  }
+  #footer .wrapper .container div.right span.right ul li.two a{
+    text-decoration: none;
+  }
+ #footer .wrapper .container span.right ul li img{
+      width: 30px;
+      margin-right: 10px;
+      
+      
+      
+  }
+  #footer .wrapper .container span.right h2{
+  
+    font-size: 28px;
+  
+    margin-left: 30px;
+    font-family: 'poppinslight';
+    margin-right: 5%;
+  }
+  
+  
+  #footer .wrapper .container span.right ul li small{
+     color: white;
+     margin-top:px;
+     margin-right: 20%
+     
+
+  }
+  #footer .wrapper .container span.right ul li h4{
+   
+   color: white;
+   margin-top:10px;
+  margin-bottom: 10px; 
+  margin-left: 5px;
+   font-size: 20px;
+   
+  }
+  
+  #popularCategories { 
+   background-color: #2d2d2d;
+  
+  }
+  #popularCategories .wrapper .container { 
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom:1px solid #6f6f66;
+    margin-bottom: 20px;
+  }
+  #popularCategories .wrapper .container .left h3 { 
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: white;
+  font-size: 25px;
+  margin-left: 50px;
+  font-family: 'poppinslight';
+        
+  }
+  #popularCategories .wrapper .container .right img { 
+          margin-top: 20px;
+          margin-right: 32px;
+  }
+  .one { 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .one small { 
+  color: white;
+  padding-bottom: 50px;
+  font-family: 'poppinlight';
+  }
+  @media all and (max-width:980px){
+    
+header .container .middle ul li{
+  display: none;
+  
+}
+header .container {
+  width: 100%;
+}
+header .container .middle ul li.menu form select{
+  border: none;
+  padding: 8px;
+  background-color: #dfdfdd;
+  font-size: 20px;
+  border-radius:4px;
+  margin-left:10px;
+  margin-right:20px;
+}
+header .container .right {
+  margin-left: 0;
+}
+header .container .middle ul li.menu {
+  display: block;
+
+  }
+
+header .container .right ul li.one{
+  margin-left: 20%;
+}
+  #spotlight{
+    background-size: 100%;
+    width: 102%;
+    
+  }
+  #spotlight .wrapper .container .left{
+    display: none;
+  }
+  #spotlight .wrapper .container .middle{
+    margin-top: 0;
+  }
+  #spotlight .wrapper .container .middle h2 {
+    font-size: 70px;
+    line-height: 7rem;
+  }
+  #spotlight .wrapper .container .middle h6{
+    font-size: 30px;
+    margin-right: 0;
+  }
+  #main .wrapper .container {
+    flex-wrap: wrap;
+  }
+  #main .wrapper .container .left{
+    margin-top: 0;
+    width: 200%;
+  }
+  #middle .wrapper .gallery ul{
+    flex-wrap: wrap;
+  }
+  #middle .wrapper .gallery img.one {
+    display: none;
+  }
+  #middle .wrapper .gallery img.two{
+    display: none;
+  }
+
+#brand .wrapper .container div.right{
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#brand .wrapper .container div.left{
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#brand .wrapper .container h4{
+  margin-top: 100px;
+}
+
+#top_brands .wrapper .container{
+  height: 670px;
+  
+}
+#top_brands .wrapper .container .logo span img{
+  width: 200px;
+  height: 10vh;
+}
+#limelight .wrapper .container{
+  flex-wrap: wrap;
+}
+
+#feed_back .wrapper .container {
+  flex-wrap: wrap;
+}
+#footer .wrapper .container{
+  flex-wrap: wrap;
+}
+#footer .wrapper .container .left ul li a img.one {
+  height: 4.6vh;
+  width: 40px;
+}
+#footer .wrapper .container .left ul li a img.four{
+  height: 4.6vh;
+}
+}
+  
+ 
+  @media all and (max-width:768px){
+    header .container .right ul li.one{
+      margin-left: 5px;
+    }
+    header .container .left h1 a img{
+      margin-left: 10%;
+    }
+    header .container .middle {
+      margin-left: 0;
+    }
+     #spotlight{
+      background-size: 100%;
+      width: 100%;
+      height: 100vh;
+    }
+    #spotlight .wrapper .container .middle h2 {
+      font-size: 55px;
+      line-height: 1.6em;
+    }
+    #spotlight .wrapper .container .middle {
+      margin-top: 0;
+    }
+    #brand .wrapper .container{
+     flex-wrap: wrap;
+      
+    }
+    #brand .wrapper .container div.right{
+     margin-top: 0;
+     margin-left: 2.5%;
+    }
+    #brand .wrapper .container div.left h4{
+       margin-top: 200px;
+    }
+    #middle .wrapper .gallery{
+      flex-wrap: wrap;
+      width: 150%;
+    }
+    #middle .wrapper .gallery img.one{
+      display: none;
+    }
+    #middle .wrapper .gallery img.two{
+      display: none;
+    }
+    #middle .wrapper .gallery ul li a  img{
+      width: 500px;
+    }
+   
+    header .container .middle ul li{
+      display: none;
+    }
+    #spotlight{
+      background-size: 100%;
+    }
+    #top_brands .wrapper .container{
+      height: 600%;
+  }
+  #category_for_men .container h4{
+    margin-top: 90%;
+  }
+}
+
+  @media all and (max-width:360px){
+    #spotlight{
+    background-size: 100%;
+    width: 100%;
+    }
+    header .container .left h1 a img {
+      margin-left: 5%;
+    }
+    header .container .right ul li.one{
+      width: px;
+      padding:0; 
+      margin-right:5px;
+
+    }
+    header .container .right ul li.one img .search{
+      display: none;
+    }
+    header .container .right ul li{
+      margin-right: 10px;
+    }
+
+    header .container .left h1 a{
+      margin-right: 0;
+    }
+    header .container .right ul li input{
+      width: 80px;
+      font-size: 10px;
+      margin-left:10px;
+
+  
+      
+    }
+    
+    header .container .right ul li.two{
+      
+      margin-left:0;
+      padding:0;
+      margin-right:1px;
+      
+    }
+    header .container .right ul li {
+    padding: 0;
+    }
+    #main {
+      width: 210%;
+      margin-top:-10px;
+      height:-200%;
+      background-size: 150%;
+    }
+    header .container .middle ul li.menu form select{
+      margin-left:2px;
+    padding: 0;
+      margin-right:0px;
+      width:15px;
+  
+
+    }
+    header .container .right span img{
+      padding: 0px;
+      
+    }
+    #spotlight .wrapper .container .middle h6{
+      margin: 0;
+      font-size: 10px;
+    }
+    #spotlight .wrapper .container .middle h2{
+      font-size: 30px;
+      margin: 0;
+    }
+    #spotlight .wrapper .container .middle a.button{
+      margin-top: 0;
+      font-size: 10px;
+      padding: 2px;
+    }
+    
+    #brand .wrapper .container{
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    #top_brands .wrapper .container .logo span{
+      margin-left: 0;
+    }
+    #top_brands .wrapper .container{
+      height: 190vh;
+      width:100%;
+    }
+    #top_brands .wrapper .container .logo span img{
+      height: 20vh;
+      width: 100%;
+    }
+    #middle .wrapper .gallery ul {
+      flex-wrap: wrap;
+    
+      
+      
+    }
+    #brand .wrapper .container div.left {
+     
+     background-size: 250%;
+     margin-left: -1%;
+    }
+    #brand .wrapper .container div.left p{
+      margin-bottom: 0;
+    }
+    #brand .wrapper .container div.right{
+      background-size: 100%; 
+      margin-left: -1%;
+    }
+    #brand .wrapper .container div.left p{
+      font-size: 15px;
+    }
+    header .container .right ul li input{
+      margin-left: 0;
+      padding: 1px;
+    }
+    #category_for_men .container h4{
+      
+      margin-left: 20PX;
+      font-size: 23px;
+    }
+  
+  #Categories_for_women .container h4{
+    font-size: 20px;
+  }
+  #limelight .wrapper h4{
+    font-size: 22px;
+  }
+    
+    #category_for_men .container ul li img.image_one{
+      width: 100%;
+    }
+    #category_for_men .container ul li:nth-child(7n) img.image{
+      width: 100%;
+    }
+#Categories_for_women .container ul li a img.image_two {
+  width: 100%;
+}
+#limelight .wrapper .container{
+  flex-wrap: wrap;
+
+}
+
+#limelight .wrapper .container .box{
+ width: 100%;
+}
+#limelight .wrapper .container .box span img.image_three{
+  margin-right: 0;
+  width: 100%;
+}
+#limelight .wrapper .container .box .button{
+  margin-left: -2px;
+}
+
+#footer .wrapper .container{
+ 
+  width: 100%;
+  
+}
+#feed_back .wrapper .container {
+  flex-wrap: wrap;
+}
+#feed_back {
+  width: 100%;
+  
+}
+#feed_back .wrapper h2 {
+  font-size: 55px;
+}
+#feed_back .wrapper .container .box{
+ width: 100%;
+ height: 60vh;
+  margin-bottom: 10%;
+}
+#feed_back .wrapper .container .box h2{
+  margin-top: -250%;
+margin-bottom: 10px;
+  font-size: 20px;
+}
+#feed_back .wrapper .container .box p{
+  margin-bottom:100%;
+  font-size: 15px;
+  line-height: 1em;  
+
+}
+#feed_back .wrapper .container .box p{
+  margin-bottom:0;
+  font-size: 18px;
+  line-height: 2em; 
+  
+}
+  
+    #middle .wrapper .gallery ul li{
+      margin-bottom: 20px;
+    }
+    #middle .wrapper .gallery ul li img {
+      margin-left: 180px;
+    }
+    #middle .wrapper .gallery ul li a img {
+      width: 80%;
+      margin-left: 0;
+    }
+    #middle .wrapper .gallery ul li a 
+    #middle .wrapper .container h4 {
+      margin-right: 700px;
+      font-size:40px;
+    }
+    #middle .wrapper .gallery ul li a{
+      text-align: center;
+    }
+    #footer{
+      width: 100%;
+    }
+
+#popularCategories{
+  width: 320%;
+}
+feed_back .wrapper .container .box {
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 10%;
+}
+  }
+
+  
+  
+  @media all and (max-width:320px){
+    
+  #spotlight .wrapper .container .middle{
+     margin-top: 0px;
+  }
+  #spotlight .wrapper .container .middle h6{
+    font-size: 10px;
+  }
+  header .container .right ul li img {
+  display: none;
+  }
+  #main
+  {
+    background-size:90%;
+    height: 100%;
+  
+  }
+  
+  header .container .middle ul li.menu form select{
+    width: 80px;
+    font-size: 18px;
+    padding: 2px;
+    margin-right: 30px;
+  }
+
+#main .wrapper .container .left h4{
+  font-size: 22px;
+}
+#main .wrapper .container .left h6 {
+  font-size: 18px
+}
+#main .wrapper .container .right h4{
+  font-size: 22px;
+}
+#main .wrapper .container .right h6{
+  font-size: 18px;
+}
+#feed_back .wrapper h2 {
+  font-size: 30px;
+}
+#feed_back .wrapper .container .box p{
+  margin-bottom:0;
+  font-size: 18px;
+  line-height: 2em; 
+  
+}
+   
+header .container .right ul li input{
+      
+      padding: 3px;
+      font-size: 15px;
+      border-radius: 8px;
+      margin-top: 3px;
+    }
+  
+  #feed_back .wrapper .container .box h2{
+
+  margin-top:-500% ;
+  height: 100px;
+    font-size: 20px;
+    
+  }
+
+
+}
+@media (max-width: 320px) {
+    #feed_back .wrapper .container .box {
+        height: 90vh;
+        width: -200%;
+    }
+
+  }
+@media (max-width: 360px) {
+  
+#feed_back .wrapper .container .box{
+   border: none;
+   margin-bottom: 10px;
+}
+
+
+
+#feed_back .wrapper .container .box a img{
+  margin-bottom: 20px;
+  margin-left: -50px;
+  
+}
+  #feed_back{
+    border: none;
+  }
+  #feed_back .wrapper .container .box{
+    height: 90vh;
+    width: -200%;
+  }
+  #popularCategories{
+    width: 100%;
+    margin-right: 50%;
+  }
+  #popularCategories .wrapper .container .left h3{
+    margin-left: 0;
+  }
+  .one small{
+    margin-left:0;
+    font-size: 10px;
+    justify-content:left;
+  }
+  #spotlight{
+    width: 110%;
+    height: 80vh;
+  }
+  #main .wrapper .container .left{
+    background-image: none;
+    background-color: orange;
+    width: 300px;
+    margin-right:50%;
+    
+    
+  }
+  #main .wrapper .container .right{
+    background-image: none;
+    background-color:rgb(204, 141, 204);
+    width: 300px;
+    margin-right:50%;
+}
+#popularCategories{
+  width:100%
+}
+#footer .wrapper .container div.right span.right ul li.two img{
+  margin: 0;
+  width: 50%;
+}
+#footer .wrapper .container div.right span.right ul li.one img{
+  margin: 0;
+  width: 50%;
+}
+ }
+
+
+  
+
+
+   
+    
+      
+    
+
+  
+
+
+
+ 
+  
